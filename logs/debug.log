@@ -1,0 +1,588 @@
+[2019-07-16T16:04:53.998] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger - ignoring amount from total
+[2019-07-16T16:04:54.001] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger - ignoring amount from total
+[2019-07-16T16:04:54.005] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42 - continuing as normal
+[2019-07-16T16:04:54.006] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42 - continuing as normal
+[2019-07-16T16:08:05.561] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+[2019-07-16T16:08:05.566] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+[2019-07-16T16:08:05.571] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42
+[2019-07-16T16:08:05.572] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42
+[2019-07-16T16:27:27.090] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+[2019-07-16T16:27:27.097] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42
+[2019-07-16T16:39:48.384] [DEBUG] main.js - invalid transaction: 1
+[2019-07-16T16:39:48.392] [DEBUG] main.js - invalid transaction: 2
+[2019-07-16T16:39:48.394] [DEBUG] main.js - invalid transaction: 3
+[2019-07-16T16:39:48.395] [DEBUG] main.js - invalid transaction: 4
+[2019-07-16T16:39:48.397] [DEBUG] main.js - invalid transaction: 5
+[2019-07-16T16:39:48.399] [DEBUG] main.js - invalid transaction: 6
+[2019-07-16T16:39:48.401] [DEBUG] main.js - invalid transaction: 7
+[2019-07-16T16:39:48.402] [DEBUG] main.js - invalid transaction: 8
+[2019-07-16T16:39:48.404] [DEBUG] main.js - invalid transaction: 9
+[2019-07-16T16:39:48.405] [DEBUG] main.js - invalid transaction: 1, 0
+[2019-07-16T16:39:48.407] [DEBUG] main.js - invalid transaction: 1, 1
+[2019-07-16T16:39:48.409] [DEBUG] main.js - invalid transaction: 1, 2
+[2019-07-16T16:39:48.410] [DEBUG] main.js - invalid transaction: 1, 3
+[2019-07-16T16:39:48.411] [DEBUG] main.js - invalid transaction: 1, 4
+[2019-07-16T16:39:48.413] [DEBUG] main.js - invalid transaction: 1, 5
+[2019-07-16T16:39:48.414] [DEBUG] main.js - invalid transaction: 1, 6
+[2019-07-16T16:39:48.416] [DEBUG] main.js - invalid transaction: 1, 7
+[2019-07-16T16:39:48.417] [DEBUG] main.js - invalid transaction: 1, 8
+[2019-07-16T16:39:48.418] [DEBUG] main.js - invalid transaction: 1, 9
+[2019-07-16T16:39:48.420] [DEBUG] main.js - invalid transaction: 2, 0
+[2019-07-16T16:39:48.422] [DEBUG] main.js - invalid transaction: 2, 1
+[2019-07-16T16:39:48.424] [DEBUG] main.js - invalid transaction: 2, 2
+[2019-07-16T16:39:48.426] [DEBUG] main.js - invalid transaction: 2, 3
+[2019-07-16T16:39:48.428] [DEBUG] main.js - invalid transaction: 2, 4
+[2019-07-16T16:39:48.429] [DEBUG] main.js - invalid transaction: 2, 5
+[2019-07-16T16:39:48.430] [DEBUG] main.js - invalid transaction: 2, 6
+[2019-07-16T16:39:48.432] [DEBUG] main.js - invalid transaction: 2, 7
+[2019-07-16T16:39:48.433] [DEBUG] main.js - invalid transaction: 2, 8
+[2019-07-16T16:39:48.435] [DEBUG] main.js - invalid transaction: 2, 9
+[2019-07-16T16:39:48.438] [DEBUG] main.js - invalid transaction: 3, 0
+[2019-07-16T16:39:48.440] [DEBUG] main.js - invalid transaction: 3, 1
+[2019-07-16T16:39:48.441] [DEBUG] main.js - invalid transaction: 3, 2
+[2019-07-16T16:39:48.443] [DEBUG] main.js - invalid transaction: 3, 3
+[2019-07-16T16:39:48.444] [DEBUG] main.js - invalid transaction: 3, 4
+[2019-07-16T16:39:48.445] [DEBUG] main.js - invalid transaction: 3, 5
+[2019-07-16T16:39:48.446] [DEBUG] main.js - invalid transaction: 3, 6
+[2019-07-16T16:39:48.447] [DEBUG] main.js - invalid transaction: 3, 7
+[2019-07-16T16:39:48.449] [DEBUG] main.js - invalid transaction: 3, 8
+[2019-07-16T16:39:48.450] [DEBUG] main.js - invalid transaction: 3, 9
+[2019-07-16T16:39:48.451] [DEBUG] main.js - invalid transaction: 4, 0
+[2019-07-16T16:39:48.453] [DEBUG] main.js - invalid transaction: 4, 1
+[2019-07-16T16:39:48.454] [DEBUG] main.js - invalid transaction: 4, 2
+[2019-07-16T16:39:48.456] [DEBUG] main.js - invalid transaction: 4, 3
+[2019-07-16T16:39:48.457] [DEBUG] main.js - invalid transaction: 4, 4
+[2019-07-16T16:39:48.459] [DEBUG] main.js - invalid transaction: 4, 5
+[2019-07-16T16:39:48.461] [DEBUG] main.js - invalid transaction: 4, 6
+[2019-07-16T16:39:48.462] [DEBUG] main.js - invalid transaction: 4, 7
+[2019-07-16T16:39:48.464] [DEBUG] main.js - invalid transaction: 4, 8
+[2019-07-16T16:39:48.465] [DEBUG] main.js - invalid transaction: 4, 9
+[2019-07-16T16:39:48.467] [DEBUG] main.js - invalid transaction: 5, 0
+[2019-07-16T16:39:48.471] [DEBUG] main.js - invalid transaction: 5, 1
+[2019-07-16T16:39:48.468] [DEBUG] main.js - invalid transaction: 1
+[2019-07-16T16:39:48.475] [DEBUG] main.js - invalid transaction: 5, 2
+[2019-07-16T16:39:48.477] [DEBUG] main.js - invalid transaction: 5, 3
+[2019-07-16T16:39:48.479] [DEBUG] main.js - invalid transaction: 5, 4
+[2019-07-16T16:39:48.480] [DEBUG] main.js - invalid transaction: 5, 5
+[2019-07-16T16:39:48.480] [DEBUG] main.js - invalid transaction: 2
+[2019-07-16T16:39:48.482] [DEBUG] main.js - invalid transaction: 5, 6
+[2019-07-16T16:39:48.483] [DEBUG] main.js - invalid transaction: 5, 7
+[2019-07-16T16:39:48.483] [DEBUG] main.js - invalid transaction: 3
+[2019-07-16T16:39:48.485] [DEBUG] main.js - invalid transaction: 5, 8
+[2019-07-16T16:39:48.485] [DEBUG] main.js - invalid transaction: 4
+[2019-07-16T16:39:48.487] [DEBUG] main.js - invalid transaction: 5, 9
+[2019-07-16T16:39:48.487] [DEBUG] main.js - invalid transaction: 5
+[2019-07-16T16:39:48.489] [DEBUG] main.js - invalid transaction: 6, 0
+[2019-07-16T16:39:48.490] [DEBUG] main.js - invalid transaction: 6
+[2019-07-16T16:39:48.491] [DEBUG] main.js - invalid transaction: 6, 1
+[2019-07-16T16:39:48.493] [DEBUG] main.js - invalid transaction: 6, 2
+[2019-07-16T16:39:48.493] [DEBUG] main.js - invalid transaction: 7
+[2019-07-16T16:39:48.494] [DEBUG] main.js - invalid transaction: 6, 3
+[2019-07-16T16:39:48.494] [DEBUG] main.js - invalid transaction: 8
+[2019-07-16T16:39:48.496] [DEBUG] main.js - invalid transaction: 6, 4
+[2019-07-16T16:39:48.496] [DEBUG] main.js - invalid transaction: 9
+[2019-07-16T16:39:48.497] [DEBUG] main.js - invalid transaction: 6, 5
+[2019-07-16T16:39:48.498] [DEBUG] main.js - invalid transaction: 1, 0
+[2019-07-16T16:39:48.499] [DEBUG] main.js - invalid transaction: 6, 6
+[2019-07-16T16:39:48.500] [DEBUG] main.js - invalid transaction: 1, 1
+[2019-07-16T16:39:48.501] [DEBUG] main.js - invalid transaction: 6, 7
+[2019-07-16T16:39:48.503] [DEBUG] main.js - invalid transaction: 6, 8
+[2019-07-16T16:39:48.503] [DEBUG] main.js - invalid transaction: 1, 2
+[2019-07-16T16:39:48.506] [DEBUG] main.js - invalid transaction: 6, 9
+[2019-07-16T16:39:48.507] [DEBUG] main.js - invalid transaction: 1, 3
+[2019-07-16T16:39:48.509] [DEBUG] main.js - invalid transaction: 7, 0
+[2019-07-16T16:39:48.509] [DEBUG] main.js - invalid transaction: 1, 4
+[2019-07-16T16:39:48.511] [DEBUG] main.js - invalid transaction: 7, 1
+[2019-07-16T16:39:48.513] [DEBUG] main.js - invalid transaction: 7, 2
+[2019-07-16T16:39:48.515] [DEBUG] main.js - invalid transaction: 7, 3
+[2019-07-16T16:39:48.517] [DEBUG] main.js - invalid transaction: 7, 4
+[2019-07-16T16:39:48.519] [DEBUG] main.js - invalid transaction: 7, 5
+[2019-07-16T16:39:48.523] [DEBUG] main.js - invalid transaction: 7, 6
+[2019-07-16T16:39:48.526] [DEBUG] main.js - invalid transaction: 7, 7
+[2019-07-16T16:39:48.527] [DEBUG] main.js - invalid transaction: 7, 8
+[2019-07-16T16:39:48.530] [DEBUG] main.js - invalid transaction: 7, 9
+[2019-07-16T16:39:48.532] [DEBUG] main.js - invalid transaction: 8, 0
+[2019-07-16T16:39:48.535] [DEBUG] main.js - invalid transaction: 8, 1
+[2019-07-16T16:39:48.538] [DEBUG] main.js - invalid transaction: 8, 2
+[2019-07-16T16:39:48.540] [DEBUG] main.js - invalid transaction: 8, 3
+[2019-07-16T16:39:48.540] [DEBUG] main.js - invalid transaction: 1, 5
+[2019-07-16T16:39:48.542] [DEBUG] main.js - invalid transaction: 8, 4
+[2019-07-16T16:39:48.542] [DEBUG] main.js - invalid transaction: 1, 6
+[2019-07-16T16:39:48.544] [DEBUG] main.js - invalid transaction: 8, 5
+[2019-07-16T16:39:48.544] [DEBUG] main.js - invalid transaction: 1, 7
+[2019-07-16T16:39:48.546] [DEBUG] main.js - invalid transaction: 8, 6
+[2019-07-16T16:39:48.546] [DEBUG] main.js - invalid transaction: 1, 8
+[2019-07-16T16:39:48.548] [DEBUG] main.js - invalid transaction: 8, 7
+[2019-07-16T16:39:48.548] [DEBUG] main.js - invalid transaction: 1, 9
+[2019-07-16T16:39:48.550] [DEBUG] main.js - invalid transaction: 8, 8
+[2019-07-16T16:39:48.550] [DEBUG] main.js - invalid transaction: 2, 0
+[2019-07-16T16:39:48.552] [DEBUG] main.js - invalid transaction: 8, 9
+[2019-07-16T16:39:48.552] [DEBUG] main.js - invalid transaction: 2, 1
+[2019-07-16T16:39:48.554] [DEBUG] main.js - invalid transaction: 9, 0
+[2019-07-16T16:39:48.555] [DEBUG] main.js - invalid transaction: 2, 2
+[2019-07-16T16:39:48.557] [DEBUG] main.js - invalid transaction: 9, 1
+[2019-07-16T16:39:48.558] [DEBUG] main.js - invalid transaction: 9, 2
+[2019-07-16T16:39:48.558] [DEBUG] main.js - invalid transaction: 2, 3
+[2019-07-16T16:39:48.560] [DEBUG] main.js - invalid transaction: 9, 3
+[2019-07-16T16:39:48.560] [DEBUG] main.js - invalid transaction: 2, 4
+[2019-07-16T16:39:48.562] [DEBUG] main.js - invalid transaction: 9, 4
+[2019-07-16T16:39:48.562] [DEBUG] main.js - invalid transaction: 2, 5
+[2019-07-16T16:39:48.563] [DEBUG] main.js - invalid transaction: 9, 5
+[2019-07-16T16:39:48.563] [DEBUG] main.js - invalid transaction: 2, 6
+[2019-07-16T16:39:48.565] [DEBUG] main.js - invalid transaction: 9, 6
+[2019-07-16T16:39:48.565] [DEBUG] main.js - invalid transaction: 2, 7
+[2019-07-16T16:39:48.567] [DEBUG] main.js - invalid transaction: 9, 7
+[2019-07-16T16:39:48.567] [DEBUG] main.js - invalid transaction: 2, 8
+[2019-07-16T16:39:48.569] [DEBUG] main.js - invalid transaction: 9, 8
+[2019-07-16T16:39:48.572] [DEBUG] main.js - invalid transaction: 9, 9
+[2019-07-16T16:39:48.574] [DEBUG] main.js - invalid transaction: 1, 0, 0
+[2019-07-16T16:39:48.576] [DEBUG] main.js - invalid transaction: 1, 0, 1
+[2019-07-16T16:39:48.579] [DEBUG] main.js - invalid transaction: 1, 0, 2
+[2019-07-16T16:39:48.581] [DEBUG] main.js - invalid transaction: 1, 0, 3
+[2019-07-16T16:39:48.583] [DEBUG] main.js - invalid transaction: 1, 0, 4
+[2019-07-16T16:39:48.584] [DEBUG] main.js - invalid transaction: 1, 0, 5
+[2019-07-16T16:39:48.587] [DEBUG] main.js - invalid transaction: 1, 0, 6
+[2019-07-16T16:39:48.590] [DEBUG] main.js - invalid transaction: 1, 0, 7
+[2019-07-16T16:39:48.592] [DEBUG] main.js - invalid transaction: 1, 0, 8
+[2019-07-16T16:39:48.594] [DEBUG] main.js - invalid transaction: 1, 0, 9
+[2019-07-16T16:39:48.596] [DEBUG] main.js - invalid transaction: 1, 1, 0
+[2019-07-16T16:39:48.596] [DEBUG] main.js - invalid transaction: 2, 9
+[2019-07-16T16:39:48.597] [DEBUG] main.js - invalid transaction: 1, 1, 1
+[2019-07-16T16:39:48.599] [DEBUG] main.js - invalid transaction: 1, 1, 2
+[2019-07-16T16:39:48.599] [DEBUG] main.js - invalid transaction: 3, 0
+[2019-07-16T16:39:48.601] [DEBUG] main.js - invalid transaction: 1, 1, 3
+[2019-07-16T16:39:48.601] [DEBUG] main.js - invalid transaction: 3, 1
+[2019-07-16T16:39:48.602] [DEBUG] main.js - invalid transaction: 1, 1, 4
+[2019-07-16T16:39:48.602] [DEBUG] main.js - invalid transaction: 3, 2
+[2019-07-16T16:39:48.605] [DEBUG] main.js - invalid transaction: 1, 1, 5
+[2019-07-16T16:39:48.606] [DEBUG] main.js - invalid transaction: 3, 3
+[2019-07-16T16:39:48.608] [DEBUG] main.js - invalid transaction: 1, 1, 6
+[2019-07-16T16:39:48.608] [DEBUG] main.js - invalid transaction: 3, 4
+[2019-07-16T16:39:48.610] [DEBUG] main.js - invalid transaction: 1, 1, 7
+[2019-07-16T16:39:48.610] [DEBUG] main.js - invalid transaction: 3, 5
+[2019-07-16T16:39:48.611] [DEBUG] main.js - invalid transaction: 1, 1, 8
+[2019-07-16T16:39:48.611] [DEBUG] main.js - invalid transaction: 3, 6
+[2019-07-16T16:39:48.613] [DEBUG] main.js - invalid transaction: 1, 1, 9
+[2019-07-16T16:39:48.613] [DEBUG] main.js - invalid transaction: 3, 7
+[2019-07-16T16:39:48.615] [DEBUG] main.js - invalid transaction: 1, 2, 0
+[2019-07-16T16:39:48.615] [DEBUG] main.js - invalid transaction: 3, 8
+[2019-07-16T16:39:48.616] [DEBUG] main.js - invalid transaction: 1, 2, 1
+[2019-07-16T16:39:48.616] [DEBUG] main.js - invalid transaction: 3, 9
+[2019-07-16T16:39:48.617] [DEBUG] main.js - invalid transaction: 1, 2, 2
+[2019-07-16T16:39:48.617] [DEBUG] main.js - invalid transaction: 4, 0
+[2019-07-16T16:39:48.619] [DEBUG] main.js - invalid transaction: 1, 2, 3
+[2019-07-16T16:39:48.620] [DEBUG] main.js - invalid transaction: 4, 1
+[2019-07-16T16:39:48.622] [DEBUG] main.js - invalid transaction: 1, 2, 4
+[2019-07-16T16:39:48.622] [DEBUG] main.js - invalid transaction: 4, 2
+[2019-07-16T16:39:48.624] [DEBUG] main.js - invalid transaction: 1, 2, 5
+[2019-07-16T16:39:48.626] [DEBUG] main.js - invalid transaction: 4, 3
+[2019-07-16T16:39:48.627] [DEBUG] main.js - invalid transaction: 1, 2, 6
+[2019-07-16T16:39:48.629] [DEBUG] main.js - invalid transaction: 1, 2, 7
+[2019-07-16T16:39:48.629] [DEBUG] main.js - invalid transaction: 4, 4
+[2019-07-16T16:39:48.631] [DEBUG] main.js - invalid transaction: 1, 2, 8
+[2019-07-16T16:39:48.631] [DEBUG] main.js - invalid transaction: 4, 5
+[2019-07-16T16:39:48.633] [DEBUG] main.js - invalid transaction: 1, 2, 9
+[2019-07-16T16:39:48.633] [DEBUG] main.js - invalid transaction: 4, 6
+[2019-07-16T16:39:48.634] [DEBUG] main.js - invalid transaction: 1, 3, 0
+[2019-07-16T16:39:48.637] [DEBUG] main.js - invalid transaction: 4, 7
+[2019-07-16T16:39:48.640] [DEBUG] main.js - invalid transaction: 1, 3, 1
+[2019-07-16T16:39:48.640] [DEBUG] main.js - invalid transaction: 4, 8
+[2019-07-16T16:39:48.643] [DEBUG] main.js - invalid transaction: 1, 3, 2
+[2019-07-16T16:39:48.643] [DEBUG] main.js - invalid transaction: 4, 9
+[2019-07-16T16:39:48.645] [DEBUG] main.js - invalid transaction: 1, 3, 3
+[2019-07-16T16:39:48.646] [DEBUG] main.js - invalid transaction: 5, 0
+[2019-07-16T16:39:48.647] [DEBUG] main.js - invalid transaction: 1, 3, 4
+[2019-07-16T16:39:48.647] [DEBUG] main.js - invalid transaction: 5, 1
+[2019-07-16T16:39:48.649] [DEBUG] main.js - invalid transaction: 1, 3, 5
+[2019-07-16T16:39:48.649] [DEBUG] main.js - invalid transaction: 5, 2
+[2019-07-16T16:39:48.651] [DEBUG] main.js - invalid transaction: 1, 3, 6
+[2019-07-16T16:39:48.651] [DEBUG] main.js - invalid transaction: 5, 3
+[2019-07-16T16:39:48.652] [DEBUG] main.js - invalid transaction: 1, 3, 7
+[2019-07-16T16:39:48.653] [DEBUG] main.js - invalid transaction: 5, 4
+[2019-07-16T16:39:48.655] [DEBUG] main.js - invalid transaction: 1, 3, 8
+[2019-07-16T16:39:48.655] [DEBUG] main.js - invalid transaction: 5, 5
+[2019-07-16T16:39:48.657] [DEBUG] main.js - invalid transaction: 1, 3, 9
+[2019-07-16T16:39:48.658] [DEBUG] main.js - invalid transaction: 5, 6
+[2019-07-16T16:39:48.660] [DEBUG] main.js - invalid transaction: 1, 4, 0
+[2019-07-16T16:39:48.661] [DEBUG] main.js - invalid transaction: 5, 7
+[2019-07-16T16:39:48.662] [DEBUG] main.js - invalid transaction: 1, 4, 1
+[2019-07-16T16:39:48.663] [DEBUG] main.js - invalid transaction: 5, 8
+[2019-07-16T16:39:48.664] [DEBUG] main.js - invalid transaction: 1, 4, 2
+[2019-07-16T16:39:48.665] [DEBUG] main.js - invalid transaction: 1, 4, 3
+[2019-07-16T16:39:48.666] [DEBUG] main.js - invalid transaction: 1, 4, 4
+[2019-07-16T16:39:48.690] [DEBUG] main.js - invalid transaction: 5, 9
+[2019-07-16T16:39:48.692] [DEBUG] main.js - invalid transaction: 6, 0
+[2019-07-16T16:39:48.694] [DEBUG] main.js - invalid transaction: 6, 1
+[2019-07-16T16:39:48.696] [DEBUG] main.js - invalid transaction: 6, 2
+[2019-07-16T16:39:48.698] [DEBUG] main.js - invalid transaction: 6, 3
+[2019-07-16T16:39:48.699] [DEBUG] main.js - invalid transaction: 6, 4
+[2019-07-16T16:39:48.700] [DEBUG] main.js - invalid transaction: 6, 5
+[2019-07-16T16:39:48.702] [DEBUG] main.js - invalid transaction: 6, 6
+[2019-07-16T16:39:48.705] [DEBUG] main.js - invalid transaction: 6, 7
+[2019-07-16T16:39:48.707] [DEBUG] main.js - invalid transaction: 6, 8
+[2019-07-16T16:39:48.709] [DEBUG] main.js - invalid transaction: 6, 9
+[2019-07-16T16:39:48.712] [DEBUG] main.js - invalid transaction: 7, 0
+[2019-07-16T16:39:48.713] [DEBUG] main.js - invalid transaction: 7, 1
+[2019-07-16T16:39:48.715] [DEBUG] main.js - invalid transaction: 7, 2
+[2019-07-16T16:39:48.717] [DEBUG] main.js - invalid transaction: 7, 3
+[2019-07-16T16:39:48.721] [DEBUG] main.js - invalid transaction: 7, 4
+[2019-07-16T16:39:48.724] [DEBUG] main.js - invalid transaction: 7, 5
+[2019-07-16T16:39:48.725] [DEBUG] main.js - invalid transaction: 7, 6
+[2019-07-16T16:39:48.727] [DEBUG] main.js - invalid transaction: 7, 7
+[2019-07-16T16:39:48.754] [DEBUG] main.js - invalid transaction: 7, 8
+[2019-07-16T16:39:48.757] [DEBUG] main.js - invalid transaction: 7, 9
+[2019-07-16T16:39:48.760] [DEBUG] main.js - invalid transaction: 8, 0
+[2019-07-16T16:39:48.762] [DEBUG] main.js - invalid transaction: 8, 1
+[2019-07-16T16:39:48.763] [DEBUG] main.js - invalid transaction: 8, 2
+[2019-07-16T16:39:48.764] [DEBUG] main.js - invalid transaction: 8, 3
+[2019-07-16T16:39:48.766] [DEBUG] main.js - invalid transaction: 8, 4
+[2019-07-16T16:39:48.767] [DEBUG] main.js - invalid transaction: 8, 5
+[2019-07-16T16:39:48.770] [DEBUG] main.js - invalid transaction: 8, 6
+[2019-07-16T16:39:48.773] [DEBUG] main.js - invalid transaction: 8, 7
+[2019-07-16T16:39:48.775] [DEBUG] main.js - invalid transaction: 8, 8
+[2019-07-16T16:39:48.777] [DEBUG] main.js - invalid transaction: 8, 9
+[2019-07-16T16:39:48.778] [DEBUG] main.js - invalid transaction: 9, 0
+[2019-07-16T16:39:48.780] [DEBUG] main.js - invalid transaction: 9, 1
+[2019-07-16T16:39:48.810] [DEBUG] main.js - invalid transaction: 9, 2
+[2019-07-16T16:39:48.812] [DEBUG] main.js - invalid transaction: 9, 3
+[2019-07-16T16:39:48.813] [DEBUG] main.js - invalid transaction: 9, 4
+[2019-07-16T16:39:48.815] [DEBUG] main.js - invalid transaction: 9, 5
+[2019-07-16T16:39:48.817] [DEBUG] main.js - invalid transaction: 9, 6
+[2019-07-16T16:39:48.819] [DEBUG] main.js - invalid transaction: 9, 7
+[2019-07-16T16:39:48.822] [DEBUG] main.js - invalid transaction: 9, 8
+[2019-07-16T16:39:48.824] [DEBUG] main.js - invalid transaction: 9, 9
+[2019-07-16T16:39:48.826] [DEBUG] main.js - invalid transaction: 1, 0, 0
+[2019-07-16T16:39:48.827] [DEBUG] main.js - invalid transaction: 1, 0, 1
+[2019-07-16T16:39:48.829] [DEBUG] main.js - invalid transaction: 1, 0, 2
+[2019-07-16T16:39:48.830] [DEBUG] main.js - invalid transaction: 1, 0, 3
+[2019-07-16T16:39:48.832] [DEBUG] main.js - invalid transaction: 1, 0, 4
+[2019-07-16T16:39:48.835] [DEBUG] main.js - invalid transaction: 1, 0, 5
+[2019-07-16T16:39:48.840] [DEBUG] main.js - invalid transaction: 1, 0, 6
+[2019-07-16T16:39:48.843] [DEBUG] main.js - invalid transaction: 1, 0, 7
+[2019-07-16T16:39:48.845] [DEBUG] main.js - invalid transaction: 1, 0, 8
+[2019-07-16T16:39:48.847] [DEBUG] main.js - invalid transaction: 1, 0, 9
+[2019-07-16T16:39:48.850] [DEBUG] main.js - invalid transaction: 1, 1, 0
+[2019-07-16T16:39:48.852] [DEBUG] main.js - invalid transaction: 1, 1, 1
+[2019-07-16T16:39:48.856] [DEBUG] main.js - invalid transaction: 1, 1, 2
+[2019-07-16T16:39:48.858] [DEBUG] main.js - invalid transaction: 1, 1, 3
+[2019-07-16T16:39:48.860] [DEBUG] main.js - invalid transaction: 1, 1, 4
+[2019-07-16T16:39:48.862] [DEBUG] main.js - invalid transaction: 1, 1, 5
+[2019-07-16T16:39:48.864] [DEBUG] main.js - invalid transaction: 1, 1, 6
+[2019-07-16T16:39:48.893] [DEBUG] main.js - invalid transaction: 1, 1, 7
+[2019-07-16T16:39:48.894] [DEBUG] main.js - invalid transaction: 1, 1, 8
+[2019-07-16T16:39:48.896] [DEBUG] main.js - invalid transaction: 1, 1, 9
+[2019-07-16T16:39:48.897] [DEBUG] main.js - invalid transaction: 1, 2, 0
+[2019-07-16T16:39:48.899] [DEBUG] main.js - invalid transaction: 1, 2, 1
+[2019-07-16T16:39:48.902] [DEBUG] main.js - invalid transaction: 1, 2, 2
+[2019-07-16T16:39:48.904] [DEBUG] main.js - invalid transaction: 1, 2, 3
+[2019-07-16T16:39:48.907] [DEBUG] main.js - invalid transaction: 1, 2, 4
+[2019-07-16T16:39:48.909] [DEBUG] main.js - invalid transaction: 1, 2, 5
+[2019-07-16T16:39:48.910] [DEBUG] main.js - invalid transaction: 1, 2, 6
+[2019-07-16T16:39:48.912] [DEBUG] main.js - invalid transaction: 1, 2, 7
+[2019-07-16T16:39:48.914] [DEBUG] main.js - invalid transaction: 1, 2, 8
+[2019-07-16T16:39:48.915] [DEBUG] main.js - invalid transaction: 1, 2, 9
+[2019-07-16T16:39:48.917] [DEBUG] main.js - invalid transaction: 1, 3, 0
+[2019-07-16T16:39:48.919] [DEBUG] main.js - invalid transaction: 1, 3, 1
+[2019-07-16T16:39:48.922] [DEBUG] main.js - invalid transaction: 1, 3, 2
+[2019-07-16T16:39:48.924] [DEBUG] main.js - invalid transaction: 1, 3, 3
+[2019-07-16T16:39:48.926] [DEBUG] main.js - invalid transaction: 1, 3, 4
+[2019-07-16T16:39:48.928] [DEBUG] main.js - invalid transaction: 1, 3, 5
+[2019-07-16T16:39:48.929] [DEBUG] main.js - invalid transaction: 1, 3, 6
+[2019-07-16T16:39:48.931] [DEBUG] main.js - invalid transaction: 1, 3, 7
+[2019-07-16T16:39:48.959] [DEBUG] main.js - invalid transaction: 1, 3, 8
+[2019-07-16T16:39:48.961] [DEBUG] main.js - invalid transaction: 1, 3, 9
+[2019-07-16T16:39:48.962] [DEBUG] main.js - invalid transaction: 1, 4, 0
+[2019-07-16T16:39:48.963] [DEBUG] main.js - invalid transaction: 1, 4, 1
+[2019-07-16T16:39:48.965] [DEBUG] main.js - invalid transaction: 1, 4, 2
+[2019-07-16T16:39:48.967] [DEBUG] main.js - invalid transaction: 1, 4, 3
+[2019-07-16T16:39:48.968] [DEBUG] main.js - invalid transaction: 1, 4, 4
+[2019-07-16T16:40:10.249] [DEBUG] main.js - invalid transaction: 1
+[2019-07-16T16:40:10.254] [DEBUG] main.js - invalid transaction: 2
+[2019-07-16T16:40:10.256] [DEBUG] main.js - invalid transaction: 3
+[2019-07-16T16:40:10.258] [DEBUG] main.js - invalid transaction: 4
+[2019-07-16T16:40:10.259] [DEBUG] main.js - invalid transaction: 5
+[2019-07-16T16:40:10.261] [DEBUG] main.js - invalid transaction: 6
+[2019-07-16T16:40:10.262] [DEBUG] main.js - invalid transaction: 7
+[2019-07-16T16:40:10.264] [DEBUG] main.js - invalid transaction: 8
+[2019-07-16T16:40:10.265] [DEBUG] main.js - invalid transaction: 9
+[2019-07-16T16:40:10.267] [DEBUG] main.js - invalid transaction: 1, 0
+[2019-07-16T16:40:10.268] [DEBUG] main.js - invalid transaction: 1, 1
+[2019-07-16T16:40:10.270] [DEBUG] main.js - invalid transaction: 1, 2
+[2019-07-16T16:40:10.273] [DEBUG] main.js - invalid transaction: 1, 3
+[2019-07-16T16:40:10.298] [DEBUG] main.js - invalid transaction: 1, 4
+[2019-07-16T16:40:10.300] [DEBUG] main.js - invalid transaction: 1, 5
+[2019-07-16T16:40:10.301] [DEBUG] main.js - invalid transaction: 1, 6
+[2019-07-16T16:40:10.303] [DEBUG] main.js - invalid transaction: 1, 7
+[2019-07-16T16:40:10.305] [DEBUG] main.js - invalid transaction: 1, 8
+[2019-07-16T16:40:10.307] [DEBUG] main.js - invalid transaction: 1, 9
+[2019-07-16T16:40:10.308] [DEBUG] main.js - invalid transaction: 2, 0
+[2019-07-16T16:40:10.310] [DEBUG] main.js - invalid transaction: 2, 1
+[2019-07-16T16:40:10.311] [DEBUG] main.js - invalid transaction: 2, 2
+[2019-07-16T16:40:10.313] [DEBUG] main.js - invalid transaction: 2, 3
+[2019-07-16T16:40:10.314] [DEBUG] main.js - invalid transaction: 2, 4
+[2019-07-16T16:40:10.316] [DEBUG] main.js - invalid transaction: 2, 5
+[2019-07-16T16:40:10.318] [DEBUG] main.js - invalid transaction: 2, 6
+[2019-07-16T16:40:10.320] [DEBUG] main.js - invalid transaction: 2, 7
+[2019-07-16T16:40:10.322] [DEBUG] main.js - invalid transaction: 2, 8
+[2019-07-16T16:40:10.323] [DEBUG] main.js - invalid transaction: 2, 9
+[2019-07-16T16:40:10.325] [DEBUG] main.js - invalid transaction: 3, 0
+[2019-07-16T16:40:10.327] [DEBUG] main.js - invalid transaction: 3, 1
+[2019-07-16T16:40:10.328] [DEBUG] main.js - invalid transaction: 3, 2
+[2019-07-16T16:40:10.329] [DEBUG] main.js - invalid transaction: 3, 3
+[2019-07-16T16:40:10.331] [DEBUG] main.js - invalid transaction: 3, 4
+[2019-07-16T16:40:10.332] [DEBUG] main.js - invalid transaction: 3, 5
+[2019-07-16T16:40:10.334] [DEBUG] main.js - invalid transaction: 3, 6
+[2019-07-16T16:40:10.361] [DEBUG] main.js - invalid transaction: 3, 7
+[2019-07-16T16:40:10.362] [DEBUG] main.js - invalid transaction: 3, 8
+[2019-07-16T16:40:10.364] [DEBUG] main.js - invalid transaction: 3, 9
+[2019-07-16T16:40:10.365] [DEBUG] main.js - invalid transaction: 4, 0
+[2019-07-16T16:40:10.367] [DEBUG] main.js - invalid transaction: 4, 1
+[2019-07-16T16:40:10.370] [DEBUG] main.js - invalid transaction: 4, 2
+[2019-07-16T16:40:10.372] [DEBUG] main.js - invalid transaction: 4, 3
+[2019-07-16T16:40:10.373] [DEBUG] main.js - invalid transaction: 4, 4
+[2019-07-16T16:40:10.375] [DEBUG] main.js - invalid transaction: 4, 5
+[2019-07-16T16:40:10.377] [DEBUG] main.js - invalid transaction: 4, 6
+[2019-07-16T16:40:10.379] [DEBUG] main.js - invalid transaction: 4, 7
+[2019-07-16T16:40:10.381] [DEBUG] main.js - invalid transaction: 4, 8
+[2019-07-16T16:40:10.382] [DEBUG] main.js - invalid transaction: 4, 9
+[2019-07-16T16:40:10.384] [DEBUG] main.js - invalid transaction: 5, 0
+[2019-07-16T16:40:10.385] [DEBUG] main.js - invalid transaction: 5, 1
+[2019-07-16T16:40:10.390] [DEBUG] main.js - invalid transaction: 5, 2
+[2019-07-16T16:40:10.393] [DEBUG] main.js - invalid transaction: 5, 3
+[2019-07-16T16:40:10.394] [DEBUG] main.js - invalid transaction: 5, 4
+[2019-07-16T16:40:10.396] [DEBUG] main.js - invalid transaction: 5, 5
+[2019-07-16T16:40:10.398] [DEBUG] main.js - invalid transaction: 5, 6
+[2019-07-16T16:40:10.422] [DEBUG] main.js - invalid transaction: 5, 7
+[2019-07-16T16:40:10.424] [DEBUG] main.js - invalid transaction: 5, 8
+[2019-07-16T16:40:10.426] [DEBUG] main.js - invalid transaction: 5, 9
+[2019-07-16T16:40:10.428] [DEBUG] main.js - invalid transaction: 6, 0
+[2019-07-16T16:40:10.429] [DEBUG] main.js - invalid transaction: 6, 1
+[2019-07-16T16:40:10.431] [DEBUG] main.js - invalid transaction: 6, 2
+[2019-07-16T16:40:10.432] [DEBUG] main.js - invalid transaction: 6, 3
+[2019-07-16T16:40:10.434] [DEBUG] main.js - invalid transaction: 6, 4
+[2019-07-16T16:40:10.435] [DEBUG] main.js - invalid transaction: 6, 5
+[2019-07-16T16:40:10.437] [DEBUG] main.js - invalid transaction: 6, 6
+[2019-07-16T16:40:10.439] [DEBUG] main.js - invalid transaction: 6, 7
+[2019-07-16T16:40:10.441] [DEBUG] main.js - invalid transaction: 6, 8
+[2019-07-16T16:40:10.443] [DEBUG] main.js - invalid transaction: 6, 9
+[2019-07-16T16:40:10.444] [DEBUG] main.js - invalid transaction: 7, 0
+[2019-07-16T16:40:10.446] [DEBUG] main.js - invalid transaction: 7, 1
+[2019-07-16T16:40:10.447] [DEBUG] main.js - invalid transaction: 7, 2
+[2019-07-16T16:40:10.449] [DEBUG] main.js - invalid transaction: 7, 3
+[2019-07-16T16:40:10.450] [DEBUG] main.js - invalid transaction: 7, 4
+[2019-07-16T16:40:10.451] [DEBUG] main.js - invalid transaction: 7, 5
+[2019-07-16T16:40:10.453] [DEBUG] main.js - invalid transaction: 7, 6
+[2019-07-16T16:40:10.454] [DEBUG] main.js - invalid transaction: 7, 7
+[2019-07-16T16:40:10.456] [DEBUG] main.js - invalid transaction: 7, 8
+[2019-07-16T16:40:10.459] [DEBUG] main.js - invalid transaction: 7, 9
+[2019-07-16T16:40:10.484] [DEBUG] main.js - invalid transaction: 8, 0
+[2019-07-16T16:40:10.486] [DEBUG] main.js - invalid transaction: 8, 1
+[2019-07-16T16:40:10.488] [DEBUG] main.js - invalid transaction: 8, 2
+[2019-07-16T16:40:10.490] [DEBUG] main.js - invalid transaction: 8, 3
+[2019-07-16T16:40:10.493] [DEBUG] main.js - invalid transaction: 8, 4
+[2019-07-16T16:40:10.494] [DEBUG] main.js - invalid transaction: 8, 5
+[2019-07-16T16:40:10.496] [DEBUG] main.js - invalid transaction: 8, 6
+[2019-07-16T16:40:10.497] [DEBUG] main.js - invalid transaction: 8, 7
+[2019-07-16T16:40:10.498] [DEBUG] main.js - invalid transaction: 8, 8
+[2019-07-16T16:40:10.500] [DEBUG] main.js - invalid transaction: 8, 9
+[2019-07-16T16:40:10.502] [DEBUG] main.js - invalid transaction: 9, 0
+[2019-07-16T16:40:10.504] [DEBUG] main.js - invalid transaction: 9, 1
+[2019-07-16T16:40:10.505] [DEBUG] main.js - invalid transaction: 9, 2
+[2019-07-16T16:40:10.507] [DEBUG] main.js - invalid transaction: 9, 3
+[2019-07-16T16:40:10.509] [DEBUG] main.js - invalid transaction: 9, 4
+[2019-07-16T16:40:10.510] [DEBUG] main.js - invalid transaction: 9, 5
+[2019-07-16T16:40:10.512] [DEBUG] main.js - invalid transaction: 9, 6
+[2019-07-16T16:40:10.513] [DEBUG] main.js - invalid transaction: 9, 7
+[2019-07-16T16:40:10.514] [DEBUG] main.js - invalid transaction: 9, 8
+[2019-07-16T16:40:10.516] [DEBUG] main.js - invalid transaction: 9, 9
+[2019-07-16T16:40:10.517] [DEBUG] main.js - invalid transaction: 1, 0, 0
+[2019-07-16T16:40:10.518] [DEBUG] main.js - invalid transaction: 1, 0, 1
+[2019-07-16T16:40:10.520] [DEBUG] main.js - invalid transaction: 1, 0, 2
+[2019-07-16T16:40:10.546] [DEBUG] main.js - invalid transaction: 1, 0, 3
+[2019-07-16T16:40:10.548] [DEBUG] main.js - invalid transaction: 1, 0, 4
+[2019-07-16T16:40:10.550] [DEBUG] main.js - invalid transaction: 1, 0, 5
+[2019-07-16T16:40:10.552] [DEBUG] main.js - invalid transaction: 1, 0, 6
+[2019-07-16T16:40:10.555] [DEBUG] main.js - invalid transaction: 1, 0, 7
+[2019-07-16T16:40:10.557] [DEBUG] main.js - invalid transaction: 1, 0, 8
+[2019-07-16T16:40:10.559] [DEBUG] main.js - invalid transaction: 1, 0, 9
+[2019-07-16T16:40:10.560] [DEBUG] main.js - invalid transaction: 1, 1, 0
+[2019-07-16T16:40:10.562] [DEBUG] main.js - invalid transaction: 1, 1, 1
+[2019-07-16T16:40:10.563] [DEBUG] main.js - invalid transaction: 1, 1, 2
+[2019-07-16T16:40:10.565] [DEBUG] main.js - invalid transaction: 1, 1, 3
+[2019-07-16T16:40:10.567] [DEBUG] main.js - invalid transaction: 1, 1, 4
+[2019-07-16T16:40:10.568] [DEBUG] main.js - invalid transaction: 1, 1, 5
+[2019-07-16T16:40:10.570] [DEBUG] main.js - invalid transaction: 1, 1, 6
+[2019-07-16T16:40:10.572] [DEBUG] main.js - invalid transaction: 1, 1, 7
+[2019-07-16T16:40:10.574] [DEBUG] main.js - invalid transaction: 1, 1, 8
+[2019-07-16T16:40:10.576] [DEBUG] main.js - invalid transaction: 1, 1, 9
+[2019-07-16T16:40:10.578] [DEBUG] main.js - invalid transaction: 1, 2, 0
+[2019-07-16T16:40:10.580] [DEBUG] main.js - invalid transaction: 1, 2, 1
+[2019-07-16T16:40:10.582] [DEBUG] main.js - invalid transaction: 1, 2, 2
+[2019-07-16T16:40:10.608] [DEBUG] main.js - invalid transaction: 1, 2, 3
+[2019-07-16T16:40:10.610] [DEBUG] main.js - invalid transaction: 1, 2, 4
+[2019-07-16T16:40:10.611] [DEBUG] main.js - invalid transaction: 1, 2, 5
+[2019-07-16T16:40:10.613] [DEBUG] main.js - invalid transaction: 1, 2, 6
+[2019-07-16T16:40:10.614] [DEBUG] main.js - invalid transaction: 1, 2, 7
+[2019-07-16T16:40:10.617] [DEBUG] main.js - invalid transaction: 1, 2, 8
+[2019-07-16T16:40:10.618] [DEBUG] main.js - invalid transaction: 1, 2, 9
+[2019-07-16T16:40:10.620] [DEBUG] main.js - invalid transaction: 1, 3, 0
+[2019-07-16T16:40:10.622] [DEBUG] main.js - invalid transaction: 1, 3, 1
+[2019-07-16T16:40:10.624] [DEBUG] main.js - invalid transaction: 1, 3, 2
+[2019-07-16T16:40:10.626] [DEBUG] main.js - invalid transaction: 1, 3, 3
+[2019-07-16T16:40:10.627] [DEBUG] main.js - invalid transaction: 1, 3, 4
+[2019-07-16T16:40:10.629] [DEBUG] main.js - invalid transaction: 1, 3, 5
+[2019-07-16T16:40:10.631] [DEBUG] main.js - invalid transaction: 1, 3, 6
+[2019-07-16T16:40:10.632] [DEBUG] main.js - invalid transaction: 1, 3, 7
+[2019-07-16T16:40:10.634] [DEBUG] main.js - invalid transaction: 1, 3, 8
+[2019-07-16T16:40:10.635] [DEBUG] main.js - invalid transaction: 1, 3, 9
+[2019-07-16T16:40:10.637] [DEBUG] main.js - invalid transaction: 1, 4, 0
+[2019-07-16T16:40:10.639] [DEBUG] main.js - invalid transaction: 1, 4, 1
+[2019-07-16T16:40:10.641] [DEBUG] main.js - invalid transaction: 1, 4, 2
+[2019-07-16T16:40:10.642] [DEBUG] main.js - invalid transaction: 1, 4, 3
+[2019-07-16T16:40:10.644] [DEBUG] main.js - invalid transaction: 1, 4, 4
+[2019-07-16T16:43:36.777] [DEBUG] main.js - invalid transaction: 2013-01-04T00:00:00, Chris W, Dan W, Coffee, 10.53
+[2019-07-16T16:43:36.781] [DEBUG] main.js - invalid transaction: 2013-01-05T00:00:00, Stephen S, Tim L, Sandcastle Help, 10.57
+[2019-07-16T16:43:36.783] [DEBUG] main.js - invalid transaction: 2013-01-09T00:00:00, Todd, Rob S, Coffee, 8.19
+[2019-07-16T16:43:36.784] [DEBUG] main.js - invalid transaction: 2013-01-13T00:00:00, Todd, Sarah T, Coffee, 1.01
+[2019-07-16T16:43:36.786] [DEBUG] main.js - invalid transaction: 2013-01-15T00:00:00, Todd, Laura B, Golf Bets, 2.71
+[2019-07-16T16:43:36.826] [DEBUG] main.js - invalid transaction: 2013-01-18T00:00:00, Laura B, Tim L, Jenkins Fees, 7.17
+[2019-07-16T16:43:36.828] [DEBUG] main.js - invalid transaction: 2013-01-22T00:00:00, Dan W, Rob S, Sandcastle Help, 11.12
+[2019-07-16T16:43:36.831] [DEBUG] main.js - invalid transaction: 2013-01-25T00:00:00, Ben B, Jon A, Coffee, 4.86
+[2019-07-16T16:43:36.832] [DEBUG] main.js - invalid transaction: 2013-01-28T00:00:00, Stephen S, Ben B, Services Rendered, 1.92
+[2019-07-16T16:43:36.834] [DEBUG] main.js - invalid transaction: 2013-01-30T00:00:00, Sarah T, Todd, Jenkins Fees, 11.95
+[2019-07-16T16:43:36.835] [DEBUG] main.js - invalid transaction: 2013-01-31T00:00:00, Sarah T, Chris W, Poker Winnings, 7.55
+[2019-07-16T16:43:36.837] [DEBUG] main.js - invalid transaction: 2013-02-04T00:00:00, Sam N, Sarah T, Arcade Social, 5.52
+[2019-07-16T16:43:36.838] [DEBUG] main.js - invalid transaction: 2013-02-06T00:00:00, Dan W, Rob S, Snooker Night, 8.07
+[2019-07-16T16:43:36.840] [DEBUG] main.js - invalid transaction: 2013-02-07T00:00:00, Rob S, Laura B, Beers, 7.63
+[2019-07-16T16:43:36.841] [DEBUG] main.js - invalid transaction: 2013-02-10T00:00:00, Stephen S, Todd, Snooker Night, 10.4
+[2019-07-16T16:43:36.843] [DEBUG] main.js - invalid transaction: 2013-02-12T00:00:00, Ben B, Chris W, Misc Morale, 5.76
+[2019-07-16T16:43:36.844] [DEBUG] main.js - invalid transaction: 2013-02-15T00:00:00, Sam N, Chris W, Lunch, 1.54
+[2019-07-16T16:43:36.846] [DEBUG] main.js - invalid transaction: 2013-02-18T00:00:00, Sarah T, Sam N, Coffee, 6.98
+[2019-07-16T16:43:36.847] [DEBUG] main.js - invalid transaction: 2013-02-22T00:00:00, Chris W, Tim L, Lunch, 8.77
+[2019-07-16T16:43:36.849] [DEBUG] main.js - invalid transaction: 2013-02-26T00:00:00, Sarah T, Stephen S, Audit and Other Financial Services, 5.94
+[2019-07-16T16:43:36.850] [DEBUG] main.js - invalid transaction: 2013-02-27T00:00:00, Jon A, Chris W, Rails Consultancy, 10.58
+[2019-07-16T16:43:36.853] [DEBUG] main.js - invalid transaction: 2013-03-02T00:00:00, Gergana I, Stephen S, Audit and Other Financial Services, 1.73
+[2019-07-16T16:43:36.883] [DEBUG] main.js - invalid transaction: 2013-03-06T00:00:00, Laura B, Sam N, Stationary Items, 7.26
+[2019-07-16T16:43:36.885] [DEBUG] main.js - invalid transaction: 2013-03-08T00:00:00, Ben B, Sarah T, Pokemon Training, 6.2
+[2019-07-16T16:43:36.886] [DEBUG] main.js - invalid transaction: 2013-03-12T00:00:00, Todd, Jon A, Automated Testing Services, 0.9
+[2019-07-16T16:43:36.888] [DEBUG] main.js - invalid transaction: 2013-03-14T00:00:00, Todd, Chris W, Rails Consultancy, 8.97
+[2019-07-16T16:43:36.889] [DEBUG] main.js - invalid transaction: 2013-03-17T00:00:00, Dan W, Chris W, Audit and Other Financial Services, 3.34
+[2019-07-16T16:43:36.892] [DEBUG] main.js - invalid transaction: 2013-03-20T00:00:00, Gergana I, Rob S, Stationary Items, 2.85
+[2019-07-16T16:43:36.894] [DEBUG] main.js - invalid transaction: 2013-03-22T00:00:00, Chris W, Laura B, Git-Fu Rendered, 4.15
+[2019-07-16T16:43:36.895] [DEBUG] main.js - invalid transaction: 2013-03-24T00:00:00, Gergana I, Stephen S, Coffee, 2.39
+[2019-07-16T16:43:36.896] [DEBUG] main.js - invalid transaction: 2013-03-27T00:00:00, Stephen S, Dan W, Jenkins Fees, 7.82
+[2019-07-16T16:43:36.898] [DEBUG] main.js - invalid transaction: 2013-03-28T00:00:00, Ben B, Stephen S, Sandbox Help, 6.36
+[2019-07-16T16:43:36.899] [DEBUG] main.js - invalid transaction: 2013-04-01T00:00:00, Rob S, Tim L, Coffee, 4.77
+[2019-07-16T16:43:36.900] [DEBUG] main.js - invalid transaction: 2013-04-03T00:00:00, Sarah T, Stephen S, Lunch, 2.64
+[2019-07-16T16:43:36.902] [DEBUG] main.js - invalid transaction: 2013-04-05T00:00:00, Stephen S, Chris W, Coffee, 3.4
+[2019-07-16T16:43:36.904] [DEBUG] main.js - invalid transaction: 2013-04-08T00:00:00, Tim L, Todd, Jenkins Fees, 4.27
+[2019-07-16T16:43:36.905] [DEBUG] main.js - invalid transaction: 2013-04-09T00:00:00, Todd, Gergana I, Misc Morale, 2.6
+[2019-07-16T16:43:36.907] [DEBUG] main.js - invalid transaction: 2013-04-11T00:00:00, Gergana I, Sarah T, Lunch, 3
+[2019-07-16T16:43:36.908] [DEBUG] main.js - invalid transaction: 2013-04-15T00:00:00, Rob S, Chris W, Coffee, 5.49
+[2019-07-16T16:43:36.909] [DEBUG] main.js - invalid transaction: 2013-04-18T00:00:00, Gergana I, Ben B, Lunch, 9.07
+[2019-07-16T16:43:36.938] [DEBUG] main.js - invalid transaction: 2013-04-21T00:00:00, Todd, Sarah T, Sandcastle Help, 5.32
+[2019-07-16T16:43:36.940] [DEBUG] main.js - invalid transaction: 2013-04-24T00:00:00, Ben B, Tim L, Fantasy Football, 1.15
+[2019-07-16T16:43:36.941] [DEBUG] main.js - invalid transaction: 2013-04-25T00:00:00, Stephen S, Jon A, Coffee, 2.47
+[2019-07-16T16:43:36.943] [DEBUG] main.js - invalid transaction: 2013-04-26T00:00:00, Stephen S, Jon A, Misc Morale, 9.1
+[2019-07-16T16:43:36.944] [DEBUG] main.js - invalid transaction: 2013-04-27T00:00:00, Ben B, Chris W, Rails Consultancy, 9.91
+[2019-07-16T16:43:36.947] [DEBUG] main.js - invalid transaction: 2013-05-01T00:00:00, Ben B, Dan W, Git-Fu Rendered, 9.85
+[2019-07-16T16:43:36.948] [DEBUG] main.js - invalid transaction: 2013-05-04T00:00:00, Laura B, Dan W, Coffee, 1.34
+[2019-07-16T16:43:36.949] [DEBUG] main.js - invalid transaction: 2013-05-05T00:00:00, Sarah T, Ben B, Beers, 0.51
+[2019-07-16T16:43:36.951] [DEBUG] main.js - invalid transaction: 2013-05-06T00:00:00, Todd, Dan W, Git-Fu Rendered, 4.92
+[2019-07-16T16:43:36.952] [DEBUG] main.js - invalid transaction: 2013-05-08T00:00:00, Chris W, Tim L, Coffee, 5.94
+[2019-07-16T16:43:36.953] [DEBUG] main.js - invalid transaction: 2013-05-09T00:00:00, Gergana I, Tim L, White Water Rafting, 2.27
+[2019-07-16T16:43:36.955] [DEBUG] main.js - invalid transaction: 2013-05-13T00:00:00, Todd, Ben B, Coffee, 11.07
+[2019-07-16T16:43:36.957] [DEBUG] main.js - invalid transaction: 2013-05-14T00:00:00, Ben B, Dan W, Rails Consultancy, 9.96
+[2019-07-16T16:43:36.958] [DEBUG] main.js - invalid transaction: 2013-05-18T00:00:00, Laura B, Sarah T, Lunch, 11.94
+[2019-07-16T16:43:36.960] [DEBUG] main.js - invalid transaction: 2013-05-22T00:00:00, Stephen S, Sam N, Pokemon Training, 9.24
+[2019-07-16T16:43:36.961] [DEBUG] main.js - invalid transaction: 2013-05-25T00:00:00, Stephen S, Chris W, Sandbox Help, 2.85
+[2019-07-16T16:43:36.962] [DEBUG] main.js - invalid transaction: 2013-05-29T00:00:00, Stephen S, Ben B, Audit and Other Financial Services, 1.51
+[2019-07-16T16:43:36.964] [DEBUG] main.js - invalid transaction: 2013-06-02T00:00:00, Todd, Ben B, Golf Bets, 11.83
+[2019-07-16T16:43:36.995] [DEBUG] main.js - invalid transaction: 2013-06-03T00:00:00, Chris W, Rob S, Lunch, 2.16
+[2019-07-16T16:43:36.997] [DEBUG] main.js - invalid transaction: 2013-06-05T00:00:00, Rob S, Dan W, Golf Bets, 1.96
+[2019-07-16T16:43:36.998] [DEBUG] main.js - invalid transaction: 2013-06-06T00:00:00, Todd, Jon A, Pokemon Training, 1.06
+[2019-07-16T16:43:36.999] [DEBUG] main.js - invalid transaction: 2013-06-10T00:00:00, Sarah T, Gergana I, Lego Assistance, 10.81
+[2019-07-16T16:43:37.001] [DEBUG] main.js - invalid transaction: 2013-06-12T00:00:00, Jon A, Ben B, Sandcastle Help, 6.75
+[2019-07-16T16:43:37.003] [DEBUG] main.js - invalid transaction: 2013-06-13T00:00:00, Ben B, Sarah T, Poker Winnings, 5.15
+[2019-07-16T16:43:37.005] [DEBUG] main.js - invalid transaction: 2013-06-16T00:00:00, Ben B, Dan W, Misc Morale, 9.24
+[2019-07-16T16:43:37.006] [DEBUG] main.js - invalid transaction: 2013-06-19T00:00:00, Laura B, Jon A, Coffee, 3.68
+[2019-07-16T16:43:37.008] [DEBUG] main.js - invalid transaction: 2013-06-21T00:00:00, Dan W, Todd, Lunch, 5.43
+[2019-07-16T16:43:37.009] [DEBUG] main.js - invalid transaction: 2013-06-22T00:00:00, Chris W, Tim L, Stationary Items, 0.98
+[2019-07-16T16:43:37.010] [DEBUG] main.js - invalid transaction: 2013-06-23T00:00:00, Stephen S, Jon A, Audit and Other Financial Services, 6.12
+[2019-07-16T16:43:37.012] [DEBUG] main.js - invalid transaction: 2013-06-26T00:00:00, Rob S, Sarah T, Lunch, 8.39
+[2019-07-16T16:43:37.013] [DEBUG] main.js - invalid transaction: 2013-06-27T00:00:00, Chris W, Ben B, Beers, 10.41
+[2019-07-16T16:43:37.015] [DEBUG] main.js - invalid transaction: 2013-06-30T00:00:00, Tim L, Laura B, Lunch, 6.51
+[2019-07-16T16:43:37.017] [DEBUG] main.js - invalid transaction: 2013-07-01T00:00:00, Tim L, Jon A, Misc Morale, 1.48
+[2019-07-16T16:43:37.018] [DEBUG] main.js - invalid transaction: 2013-07-04T00:00:00, Tim L, Chris W, Poker Winnings, 5.63
+[2019-07-16T16:43:37.019] [DEBUG] main.js - invalid transaction: 2013-07-05T00:00:00, Stephen S, Sam N, Lunch, 6.73
+[2019-07-16T16:43:37.021] [DEBUG] main.js - invalid transaction: 2013-07-07T00:00:00, Jon A, Rob S, Lunch, 6.69
+[2019-07-16T16:43:37.050] [DEBUG] main.js - invalid transaction: 2013-07-10T00:00:00, Dan W, Sarah T, Lunch, 3.88
+[2019-07-16T16:43:37.052] [DEBUG] main.js - invalid transaction: 2013-07-13T00:00:00, Chris W, Tim L, Misc Morale, 2.08
+[2019-07-16T16:43:37.053] [DEBUG] main.js - invalid transaction: 2013-07-16T00:00:00, Stephen S, Gergana I, Coffee, 6.95
+[2019-07-16T16:43:37.055] [DEBUG] main.js - invalid transaction: 2013-07-19T00:00:00, Dan W, Stephen S, Arcade Social, 3.21
+[2019-07-16T16:43:37.056] [DEBUG] main.js - invalid transaction: 2013-07-23T00:00:00, Sarah T, Stephen S, Services Rendered, 11.17
+[2019-07-16T16:43:37.060] [DEBUG] main.js - invalid transaction: 2013-07-27T00:00:00, Ben B, Tim L, Coffee, 4.29
+[2019-07-16T16:43:37.063] [DEBUG] main.js - invalid transaction: 2013-07-30T00:00:00, Ben B, Todd, Beers, 0.69
+[2019-07-16T16:43:37.066] [DEBUG] main.js - invalid transaction: 2013-07-31T00:00:00, Dan W, Sam N, Pokemon Training, 1.2
+[2019-07-16T16:43:37.068] [DEBUG] main.js - invalid transaction: 2013-08-01T00:00:00, Ben B, Todd, Lunch, 11.18
+[2019-07-16T16:43:37.071] [DEBUG] main.js - invalid transaction: 2013-08-05T00:00:00, Laura B, Tim L, Jenkins Fees, 11.34
+[2019-07-16T16:43:37.073] [DEBUG] main.js - invalid transaction: 2013-08-07T00:00:00, Jon A, Rob S, Poker Winnings, 10.78
+[2019-07-16T16:43:37.076] [DEBUG] main.js - invalid transaction: 2013-08-08T00:00:00, Gergana I, Stephen S, Lunch, 10.07
+[2019-07-16T16:43:37.079] [DEBUG] main.js - invalid transaction: 2013-08-11T00:00:00, Stephen S, Chris W, Lunch, 7.27
+[2019-07-16T16:43:37.082] [DEBUG] main.js - invalid transaction: 2013-08-13T00:00:00, Gergana I, Chris W, Sandcastle Help, 9.96
+[2019-07-16T16:43:37.085] [DEBUG] main.js - invalid transaction: 2013-08-16T00:00:00, Gergana I, Ben B, Misc Morale, 10.91
+[2019-07-16T16:43:37.088] [DEBUG] main.js - invalid transaction: 2013-08-19T00:00:00, Tim L, Sam N, Coffee, 7.51
+[2019-07-16T16:43:37.121] [DEBUG] main.js - invalid transaction: 2013-08-22T00:00:00, Sarah T, Laura B, Misc Morale, 7.05
+[2019-07-16T16:43:37.123] [DEBUG] main.js - invalid transaction: 2013-08-23T00:00:00, Todd, Sam N, Beers, 0.6
+[2019-07-16T16:43:37.124] [DEBUG] main.js - invalid transaction: 2013-08-26T00:00:00, Todd, Rob S, Lunch, 3.85
+[2019-07-16T16:43:37.125] [DEBUG] main.js - invalid transaction: 2013-08-27T00:00:00, Sam N, Gergana I, Fantasy Football, 5.45
+[2019-07-16T16:43:37.127] [DEBUG] main.js - invalid transaction: 2013-08-28T00:00:00, Rob S, Chris W, Jenkins Fees, 11.13
+[2019-07-16T16:43:37.128] [DEBUG] main.js - invalid transaction: 2013-08-31T00:00:00, Gergana I, Laura B, Pokemon Training, 5.54
+[2019-07-16T16:43:37.130] [DEBUG] main.js - invalid transaction: 2013-09-03T00:00:00, Chris W, Ben B, Coffee, 9.48
+[2019-07-16T16:43:37.131] [DEBUG] main.js - invalid transaction: 2013-09-05T00:00:00, Dan W, Tim L, Lunch, 10.58
+[2019-07-16T16:43:37.132] [DEBUG] main.js - invalid transaction: 2013-09-07T00:00:00, Rob S, Laura B, Lunch, 3.32
+[2019-07-16T16:43:37.134] [DEBUG] main.js - invalid transaction: 2013-09-10T00:00:00, Tim L, Ben B, Misc Morale, 8.68
+[2019-07-16T16:43:37.135] [DEBUG] main.js - invalid transaction: 2013-09-12T00:00:00, Tim L, Laura B, Lego Assistance, 2.53
+[2019-07-16T16:43:37.137] [DEBUG] main.js - invalid transaction: 2013-09-13T00:00:00, Stephen S, Laura B, Services Rendered, 1.96
+[2019-07-16T16:43:37.138] [DEBUG] main.js - invalid transaction: 2013-09-16T00:00:00, Sam N, Rob S, Beers, 2.81
+[2019-07-16T16:43:37.140] [DEBUG] main.js - invalid transaction: 2013-09-19T00:00:00, Ben B, Gergana I, Beers, 5.52
+[2019-07-16T16:43:37.142] [DEBUG] main.js - invalid transaction: 2013-09-22T00:00:00, Stephen S, Dan W, Sandbox Help, 9.28
+[2019-07-16T16:43:37.143] [DEBUG] main.js - invalid transaction: 2013-09-23T00:00:00, Stephen S, Dan W, Coffee, 5.13
+[2019-07-16T16:43:37.145] [DEBUG] main.js - invalid transaction: 2013-09-27T00:00:00, Chris W, Sarah T, Stationary Items, 7.05
+[2019-07-16T16:43:37.146] [DEBUG] main.js - invalid transaction: 2013-10-01T00:00:00, Todd, Tim L, Coffee, 10.13
+[2019-07-16T16:43:37.148] [DEBUG] main.js - invalid transaction: 2013-10-04T00:00:00, Chris W, Ben B, Coffee, 5.96
+[2019-07-16T16:43:37.176] [DEBUG] main.js - invalid transaction: 2013-10-08T00:00:00, Gergana I, Laura B, Lunch, 5.33
+[2019-07-16T16:43:37.178] [DEBUG] main.js - invalid transaction: 2013-10-11T00:00:00, Todd, Rob S, Lunch, 10.62
+[2019-07-16T16:43:37.180] [DEBUG] main.js - invalid transaction: 2013-10-12T00:00:00, Ben B, Chris W, Jenkins Fees, 7.78
+[2019-07-16T16:43:37.181] [DEBUG] main.js - invalid transaction: 2013-10-16T00:00:00, Laura B, Rob S, Arcade Social, 5.71
+[2019-07-16T16:43:37.183] [DEBUG] main.js - invalid transaction: 2013-10-17T00:00:00, Laura B, Jon A, Arcade Social, 7.71
+[2019-07-16T16:43:37.185] [DEBUG] main.js - invalid transaction: 2013-10-20T00:00:00, Sam N, Sarah T, Lunch, 10.6
+[2019-07-16T16:43:37.187] [DEBUG] main.js - invalid transaction: 2013-10-23T00:00:00, Chris W, Todd, Lego Assistance, 3.42
+[2019-07-16T16:43:37.188] [DEBUG] main.js - invalid transaction: 2013-10-27T00:00:00, Sam N, Dan W, Misc Morale, 6.89
+[2019-07-16T16:43:37.190] [DEBUG] main.js - invalid transaction: 2013-10-29T00:00:00, Dan W, Rob S, Misc Morale, 9.99
+[2019-07-16T16:43:37.191] [DEBUG] main.js - invalid transaction: 2013-11-01T00:00:00, Sarah T, Laura B, Lunch, 7.01
+[2019-07-16T16:43:37.193] [DEBUG] main.js - invalid transaction: 2013-11-05T00:00:00, Stephen S, Rob S, Spline Reticulation, 8.3
+[2019-07-16T16:43:37.194] [DEBUG] main.js - invalid transaction: 2013-11-07T00:00:00, Ben B, Sarah T, Lunch, 10.09
+[2019-07-16T16:43:37.196] [DEBUG] main.js - invalid transaction: 2013-11-09T00:00:00, Rob S, Tim L, Stationary Items, 11
+[2019-07-16T16:43:37.198] [DEBUG] main.js - invalid transaction: 2013-11-12T00:00:00, Rob S, Sam N, Misc Morale, 1.25
+[2019-07-16T16:43:37.199] [DEBUG] main.js - invalid transaction: 2013-11-15T00:00:00, Jon A, Tim L, Sandbox Help, 9.13
+[2019-07-16T16:43:37.201] [DEBUG] main.js - invalid transaction: 2013-11-18T00:00:00, Rob S, Dan W, Services Rendered, 9.4
+[2019-07-16T16:43:37.202] [DEBUG] main.js - invalid transaction: 2013-11-21T00:00:00, Stephen S, Chris W, Misc Morale, 2.53
+[2019-07-16T16:43:37.204] [DEBUG] main.js - invalid transaction: 2013-11-24T00:00:00, Tim L, Sam N, Rails Consultancy, 7.59
+[2019-07-16T16:43:37.205] [DEBUG] main.js - invalid transaction: 2013-11-28T00:00:00, Ben B, Todd, Golf Bets, 2.15
+[2019-07-16T16:43:37.207] [DEBUG] main.js - invalid transaction: 2013-11-29T00:00:00, Ben B, Sam N, Pokemon Training, 4.01
+[2019-07-16T16:43:37.209] [DEBUG] main.js - invalid transaction: 2013-12-01T00:00:00, Sam N, Sarah T, Lunch, 6.35
+[2019-07-16T16:43:37.210] [DEBUG] main.js - invalid transaction: 2013-12-02T00:00:00, Jon A, Todd, Misc Morale, 10.19
+[2019-07-16T16:43:37.211] [DEBUG] main.js - invalid transaction: 2013-12-05T00:00:00, Ben B, Sam N, Coffee, 9
+[2019-07-16T16:43:37.213] [DEBUG] main.js - invalid transaction: 2013-12-09T00:00:00, Laura B, Tim L, Rails Consultancy, 9.39
+[2019-07-16T16:43:37.242] [DEBUG] main.js - invalid transaction: 2013-12-12T00:00:00, Chris W, Tim L, Coffee, 11.44
+[2019-07-16T16:43:37.244] [DEBUG] main.js - invalid transaction: 2013-12-13T00:00:00, Rob S, Tim L, Misc Morale, 9.19
+[2019-07-16T16:43:37.245] [DEBUG] main.js - invalid transaction: 2013-12-17T00:00:00, Sarah T, Ben B, Pokemon Training, 8.72
+[2019-07-16T16:43:37.247] [DEBUG] main.js - invalid transaction: 2013-12-19T00:00:00, Todd, Ben B, Pokemon Training, 8.72
+[2019-07-16T16:43:37.248] [DEBUG] main.js - invalid transaction: 2013-12-22T00:00:00, Gergana I, Sam N, Lunch, 1.32
+[2019-07-16T16:43:37.251] [DEBUG] main.js - invalid transaction: 2013-12-24T00:00:00, Ben B, Rob S, Snooker Night, 10.14
+[2019-07-16T16:43:37.252] [DEBUG] main.js - invalid transaction: 2013-12-27T00:00:00, Stephen S, Todd, Spline Reticulation, 4.34
+[2019-07-16T16:43:37.254] [DEBUG] main.js - invalid transaction: 2013-12-28T00:00:00, Jon A, Chris W, Beers, 5.99
+[2019-07-16T16:43:37.255] [DEBUG] main.js - invalid transaction: 2013-12-30T00:00:00, Rob S, Sam N, Misc Morale, 2.54
+[2019-07-16T16:56:43.247] [DEBUG] main.js - invalid transaction: 01/03/2015, Ben B, Sam N, Lunch, One Cheeseburger
+[2019-07-16T16:56:43.254] [DEBUG] main.js - invalid transaction: Last Thursday, Sarah T, Dan W, Beers, 5.42
