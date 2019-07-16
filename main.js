@@ -2,23 +2,25 @@ const readline = require('readline-sync')
 const csv = require('async-csv');
 const fs = require('fs').promises;
 
+const fromColumn = 1;
+const toColumn = 2;
+
 function constructList(data) {
     const mainList = {};
-    //create list of 'empty' people classes for every user
+    //create and populate list of people and their transactions
     data.slice(1).forEach(element => {
-        mainList[element[1]] = new Person(element[1])
-        mainList[element[2]] = new Person(element[2])
+        if (!mainList.hasOwnProperty(element[fromColumn])) {
+            mainList[element[fromColumn]] = new Person(element[fromColumn])
+        }
+        if (!mainList.hasOwnProperty(element[toColumn])) {
+            mainList[element[toColumn]] = new Person(element[toColumn])
+        }
+        mainList[element[fromColumn]].addTransaction(element)
+        mainList[element[toColumn]].addTransaction(element)
     });
-    //apply transactions to all users
-    data.slice(1).forEach(element => {
-        mainList[element[1]].addTransaction(element)
-        mainList[element[2]].addTransaction(element)
-    });
+
     return mainList
 }
-
-const nameColumn = 0;
-const fromColumn = 1;
 
 class Person {
     constructor(name) {
@@ -28,6 +30,7 @@ class Person {
     }
     displayTransactions() {
         console.log("Transactions for: " + this.name)
+        console.log('Date, From, To, Narrative, Amount')
         this.transactions.forEach(element => {
             console.log(element.join(", "))
         });
@@ -38,11 +41,11 @@ class Person {
     }
     addTransaction(data) {
         this.transactions.push(data);
-        if (this.name === data[1]) {
-            this.total -= parseInt(data[4])
+        if (this.name === data[fromColumn]) {
+            this.total -= parseFloat(data[4])
         }
-        if (this.name === data[2]) {
-            this.total += parseInt(data[4])
+        if (this.name === data[toColumn]) {
+            this.total += parseFloat(data[4])
         }
     }
 }
@@ -69,7 +72,7 @@ async function launchBank() {
             }
         }
         else {
-            if (data.has(input.slice(5)) {
+            if (data.hasOwnProperty(input.slice(5))) {
                 data[input.slice(5)].displayTransactions()
             }
             else {
