@@ -29,7 +29,7 @@ const amountColumn = 4;
 function constructList(data) {
     const mainList = {};
     //create and populate list of people and their transactions
-    data.slice(1).forEach(element => {
+    data.forEach(element => {
         if (checkTransaction(element)) {
             if (!mainList.hasOwnProperty(element[fromColumn])) {
                 mainList[element[fromColumn]] = new Person(element[fromColumn])
@@ -45,6 +45,9 @@ function constructList(data) {
     return mainList
 }
 
+function makeTransactionList(data) {
+    data.slice(1)
+}
 function checkTransaction(data) {
     if (isNaN(parseFloat(data[amountColumn]))) {
         logger.debug("invalid transaction: " + data.join(", "))
@@ -85,7 +88,6 @@ class Person {
     }
 
     displayTotal() {
-        //console.log("Balance for: "+this.name +"(GBP)")
         console.log(this.name + ': ' + (this.total).toFixed(2))
     }
 
@@ -108,7 +110,7 @@ async function readCSVFile(name) {
 
     const csvString = await fs.readFile(name, 'utf-8');
     const data = await csv.parse(csvString);
-    return data;
+    return data.slice(1);
 };
 
 function convertToArray(data) {
@@ -141,6 +143,7 @@ async function launchBank() {
     console.log('Please enter commands to get balance (List All) or list transactions (List [Account Name])')
     while (!exit) {
         let input = readline.prompt();
+        //TRY USING SWITCH STATEMENT HERE
         if (input === 'List All') {
             console.log('Listing Balances for all accounts:')
             for (item in data) {
