@@ -3,9 +3,21 @@ const parseJson = require("parse-json");
 const parseXML = require("xml2js").parseString;
 const csv = require("async-csv");
 const moment = require("moment");
+const log4js = require("log4js");
 
 const DateFormatCSV = "DD/MM/YYYY";
 const DateFormatJSON = moment.ISO_8601;
+
+const logger = log4js.getLogger("main.js");
+logger.level = "debug";
+log4js.configure({
+    appenders: {
+        file: { type: "fileSync", filename: "logs/debug.log" }
+    },
+    categories: {
+        default: { appenders: ["file"], level: "debug" }
+    }
+});
 
 class Parser {
     async parse(files) {
