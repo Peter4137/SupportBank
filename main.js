@@ -26,6 +26,24 @@ const toColumn = 2;
 const narrativeColumn = 3;
 const amountColumn = 4;
 
+function constructList(transactionList) {
+    const mainList = {};
+    transactionList.forEach(item => {
+        if (checkTransaction(item)) {
+            if (!mainList.hasOwnProperty(item.from)) {
+                mainList[item.from] = new Person(item.from)
+            }
+            if (!mainList.hasOwnProperty(item.to)) {
+                mainList[item.to] = new Person(item.to)
+            }
+
+            mainList[item.from].addTransaction(item)
+            mainList[item.to].addTransaction(item)
+        }
+    });
+    return mainList;
+}
+/*
 function constructList(data) {
     const mainList = {};
     //create and populate list of people and their transactions
@@ -44,19 +62,24 @@ function constructList(data) {
     });
     return mainList
 }
+*/
 
 function makeTransactionList(data) {
-    data.slice(1)
+    const transactionList = [];
+    data.forEach(item => {
+        transactionList.push(new Transaction(item))
+    });
+    return transactionList;
 }
 function checkTransaction(data) {
-    if (isNaN(parseFloat(data[amountColumn]))) {
-        logger.debug("invalid transaction: " + data.join(", "))
-        console.log("invalid transaction: " + data.join(", ") + " - amount is not recognised, ignoring for total calculation")
+    if (isNaN(parseFloat(data.amount))) {
+        logger.debug("invalid transaction: " + data.returnString())
+        console.log("invalid transaction: " + data.returnString() + " - amount is not recognised, ignoring for total calculation")
         return false
     }
-    if (!moment(data[dateColumn], DateFormatCSV).isValid() && !moment(data[dateColumn], DateFormatJSON).isValid()) {
-        logger.debug("invalid transaction: " + data.join(", "))
-        console.log("invalid transaction: " + data.join(", ") + " - Warning: invalid date, continuing")
+    if (!moment(data.date, DateFormatCSV).isValid() && !moment(data.date, DateFormatJSON).isValid()) {
+        logger.debug("invalid transaction: " + data.returnString())
+        console.log("invalid transaction: " + data.returnString() + " - Warning: invalid date, continuing")
         return true
     }
     return true
@@ -70,6 +93,15 @@ class Transaction {
         this.narrative = data[narrativeColumn];
         this.amount = data[amountColumn];
     }
+    returnString() {
+        let ans = ""
+        ans += this.date;
+        ans += ", " + this.from;
+        ans += ", " + this.to;
+        ans += ", " + this.narrative;
+        ans += ", " + this.amount;
+        return ans
+    }
 }
 
 class Person {
@@ -82,8 +114,8 @@ class Person {
     displayTransactions() {
         console.log("Transactions for: " + this.name)
         console.log('Date, From, To, Narrative, Amount')
-        this.transactions.forEach(element => {
-            console.log(element.join(", "))
+        this.transactions.forEach(item => {
+            console.log(item.returnString())
         });
     }
 
@@ -93,13 +125,13 @@ class Person {
 
     addTransaction(data) {
         this.transactions.push(data);
-        if (this.name === data[fromColumn]) {
+        if (this.name === data.from) {
 
-            this.total -= parseFloat(data[amountColumn])
+            this.total -= parseFloat(data.amount)
         }
-        if (this.name === data[toColumn]) {
+        if (this.name === data.to) {
 
-            this.total += parseFloat(data[amountColumn])
+            this.total += parseFloat(data.amount)
         }
 
     }
@@ -115,7 +147,7 @@ async function readCSVFile(name) {
 
 function convertToArray(data) {
     const newData = [];
-    data.forEach( element => {
+    data.forEach(element => {
         newData.push(Object.values(element))
     });
     return newData
@@ -128,16 +160,17 @@ async function readJSONFile(name) {
 
 async function readXMLFile(name) {
     const XMLString = await fs.readFile(name, 'utf-8');
-    const data = await parseXML(XMLString, function(err, result) {
+    const data = await parseXML(XMLString, function (err, result) {
         console.log(result['TransactionList']['SupportTransaction'][0]);
     });
-    
+
 }
 async function launchBank() {
     //const fileData = await readCSVFile('DodgyTransactions2015.csv')
     //const fileData = await readJSONFile('Transactions2013.json')
     const fileData = await readXMLFile('Transactions2012.xml')
-    data = constructList(fileData)
+    transactionList = makeTransactionList(fileData)
+    data = constructList(transactionList)
     let exit = false
     console.log('Welcome to the SupportBank!')
     console.log('Please enter commands to get balance (List All) or list transactions (List [Account Name])')
