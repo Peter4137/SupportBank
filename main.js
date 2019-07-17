@@ -8,6 +8,7 @@ const parseXML = require('xml2js').parseString;
 
 const DateFormatCSV = "DD/MM/YYYY"
 const DateFormatJSON = moment.ISO_8601
+//const StartDate = moment("31/12/1899", DateFormatCSV)
 
 const logger = log4js.getLogger('main.js');
 logger.level = 'debug';
@@ -29,7 +30,7 @@ const amountColumn = 4;
 function constructList(transactionList) {
     const mainList = {};
     transactionList.forEach(item => {
-        if (checkTransaction(item)) {
+        if (item.checkTransaction()) {
             if (!mainList.hasOwnProperty(item.from)) {
                 mainList[item.from] = new Person(item.from)
             }
@@ -43,26 +44,6 @@ function constructList(transactionList) {
     });
     return mainList;
 }
-/*
-function constructList(data) {
-    const mainList = {};
-    //create and populate list of people and their transactions
-    data.forEach(element => {
-        if (checkTransaction(element)) {
-            if (!mainList.hasOwnProperty(element[fromColumn])) {
-                mainList[element[fromColumn]] = new Person(element[fromColumn])
-            }
-            if (!mainList.hasOwnProperty(element[toColumn])) {
-                mainList[element[toColumn]] = new Person(element[toColumn])
-            }
-
-            mainList[element[fromColumn]].addTransaction(element)
-            mainList[element[toColumn]].addTransaction(element)
-        }
-    });
-    return mainList
-}
-*/
 
 function makeTransactionList(data) {
     const transactionList = [];
@@ -70,19 +51,6 @@ function makeTransactionList(data) {
         transactionList.push(new Transaction(item))
     });
     return transactionList;
-}
-function checkTransaction(data) {
-    if (isNaN(parseFloat(data.amount))) {
-        logger.debug("invalid transaction: " + data.returnString())
-        console.log("invalid transaction: " + data.returnString() + " - amount is not recognised, ignoring for total calculation")
-        return false
-    }
-    if (!moment(data.date, DateFormatCSV).isValid() && !moment(data.date, DateFormatJSON).isValid()) {
-        logger.debug("invalid transaction: " + data.returnString())
-        console.log("invalid transaction: " + data.returnString() + " - Warning: invalid date, continuing")
-        return true
-    }
-    return true
 }
 
 class Transaction {
@@ -101,6 +69,19 @@ class Transaction {
         ans += ", " + this.narrative;
         ans += ", " + this.amount;
         return ans
+    }
+    checkTransaction() {
+        if (isNaN(parseFloat(this.amount))) {
+            logger.debug("invalid transaction: " + this.returnString())
+            console.log("invalid transaction: " + this.returnString() + " - amount is not recognised, ignoring for total calculation")
+            return false
+        }
+        if (!moment(this.date, DateFormatCSV).isValid() && !moment(this.date, DateFormatJSON).isValid()) {
+            logger.debug("invalid transaction: " + this.returnString())
+            console.log("invalid transaction: " + this.returnString() + " - Warning: invalid date, continuing")
+            return true
+        }
+        return true
     }
 }
 
@@ -152,6 +133,7 @@ function convertToArray(data) {
     });
     return newData
 }
+
 async function readJSONFile(name) {
     const jsonString = await fs.readFile(name, 'utf-8');
     const data = await parseJson(jsonString);
@@ -160,15 +142,36 @@ async function readJSONFile(name) {
 
 async function readXMLFile(name) {
     const XMLString = await fs.readFile(name, 'utf-8');
-    const data = await parseXML(XMLString, function (err, result) {
-        console.log(result['TransactionList']['SupportTransaction'][0]);
-    });
-
+    return new Promise((resolve, reject) => {
+        parseXML(XMLString, function (err, result) {
+            resolve(convertXMLData(result['TransactionList']['SupportTransaction']))
+        });
+    })
 }
+
+async function convertXMLData(data) {
+    const arrayData = [];
+    data.forEach(item => {
+        const newItem = [];
+        newItem.push(convertDate(item.$.Date))
+        newItem.push(item.Parties[0].From[0])
+        newItem.push(item.Parties[0].To[0])
+        newItem.push(item.Description[0])
+        newItem.push(item.Value[0])
+        arrayData.push(newItem)
+    });
+    return arrayData
+}
+
+function convertDate(date) {
+    return moment("31/12/1899", DateFormatCSV).add(date,'d').format(DateFormatCSV)
+}
+
 async function launchBank() {
     //const fileData = await readCSVFile('DodgyTransactions2015.csv')
     //const fileData = await readJSONFile('Transactions2013.json')
     const fileData = await readXMLFile('Transactions2012.xml')
+    //console.log(fileData)
     transactionList = makeTransactionList(fileData)
     data = constructList(transactionList)
     let exit = false
@@ -186,6 +189,9 @@ async function launchBank() {
         else {
             if (data.hasOwnProperty(input.slice(5))) {
                 data[input.slice(5)].displayTransactions()
+            }
+            else if (input === 'Quit') {
+                exit = true;
             }
             else {
                 console.log('Invalid command, please try again')
