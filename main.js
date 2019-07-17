@@ -76,7 +76,7 @@ class Transaction {
             console.log("invalid transaction: " + this.returnString() + " - amount is not recognised, ignoring for total calculation")
             return false
         }
-        if (!moment(this.date, DateFormatCSV).isValid() && !moment(this.date, DateFormatJSON).isValid()) {
+        if (!moment(this.date, DateFormatCSV).isValid()) {
             logger.debug("invalid transaction: " + this.returnString())
             console.log("invalid transaction: " + this.returnString() + " - Warning: invalid date, continuing")
             return true
@@ -114,11 +114,60 @@ class Person {
 
             this.total += parseFloat(data.amount)
         }
-
     }
-
 }
 
+class Parser {
+    async readCSVFile(name) {
+
+        const csvString = await fs.readFile(name, 'utf-8');
+        const data = await csv.parse(csvString);
+        return data.slice(1);
+    };
+    
+    convertToArray(data) {
+        const newData = [];
+        data.forEach(element => {
+            element['Date'] = moment(element['Date'], DateFormatJSON).format(DateFormatCSV)
+            newData.push(Object.values(element))
+        });
+        return newData
+    }
+    
+    async readJSONFile(name) {
+        const jsonString = await fs.readFile(name, 'utf-8');
+        const data = await parseJson(jsonString);
+        return convertToArray(data)
+    }
+    
+    async readXMLFile(name) {
+        const XMLString = await fs.readFile(name, 'utf-8');
+        return new Promise((resolve, reject) => {
+            parseXML(XMLString, function (err, result) {
+                resolve(convertXMLData(result['TransactionList']['SupportTransaction']))
+            });
+        })
+    }
+    
+    async convertXMLData(data) {
+        const arrayData = [];
+        data.forEach(item => {
+            const newItem = [];
+            newItem.push(convertDate(item.$.Date))
+            newItem.push(item.Parties[0].From[0])
+            newItem.push(item.Parties[0].To[0])
+            newItem.push(item.Description[0])
+            newItem.push(item.Value[0])
+            arrayData.push(newItem)
+        });
+        return arrayData
+    }
+    
+    convertDate(date) {
+        return moment("31/12/1899", DateFormatCSV).add(date,'d').format(DateFormatCSV)
+    }
+    
+}
 async function readCSVFile(name) {
 
     const csvString = await fs.readFile(name, 'utf-8');
@@ -129,6 +178,7 @@ async function readCSVFile(name) {
 function convertToArray(data) {
     const newData = [];
     data.forEach(element => {
+        element['Date'] = moment(element['Date'], DateFormatJSON).format(DateFormatCSV)
         newData.push(Object.values(element))
     });
     return newData
@@ -168,34 +218,40 @@ function convertDate(date) {
 }
 
 async function launchBank() {
-    //const fileData = await readCSVFile('DodgyTransactions2015.csv')
-    //const fileData = await readJSONFile('Transactions2013.json')
-    const fileData = await readXMLFile('Transactions2012.xml')
-    //console.log(fileData)
+    let parser = new Parser();
+    //get data from files and construct overall list
+    let fileData2012 = await parser.readXMLFile('Transactions2012.xml')
+    let fileData2013 = await parser.readJSONFile('Transactions2013.json')
+    let fileData2014 = await parser.readCSVFile('Transactions2014.csv')
+    let fileData2015 = await parser.readCSVFile('DodgyTransactions2015.csv')
+    let fileData = fileData2012.concat(fileData2013, fileData2014, fileData2015)
     transactionList = makeTransactionList(fileData)
     data = constructList(transactionList)
+    //allow user to interact with information
     let exit = false
     console.log('Welcome to the SupportBank!')
     console.log('Please enter commands to get balance (List All) or list transactions (List [Account Name])')
     while (!exit) {
         let input = readline.prompt();
-        //TRY USING SWITCH STATEMENT HERE
-        if (input === 'List All') {
-            console.log('Listing Balances for all accounts:')
-            for (item in data) {
-                data[item].displayTotal()
-            }
-        }
-        else {
-            if (data.hasOwnProperty(input.slice(5))) {
-                data[input.slice(5)].displayTransactions()
-            }
-            else if (input === 'Quit') {
+        switch(input) {
+            case "List All":
+                console.log('Listing Balances for all accounts:')
+                for (item in data) {
+                    data[item].displayTotal()
+                }
+                break
+            case "Quit":
                 exit = true;
-            }
-            else {
-                console.log('Invalid command, please try again')
-            }
+                break
+            case "Export File":
+                break
+            default:
+                if (data.hasOwnProperty(input.slice(5))) {
+                    data[input.slice(5)].displayTransactions()
+                }
+                else {
+                    console.log('Invalid command, please try again')
+                }
         }
     }
 }
